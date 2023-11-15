@@ -8,7 +8,7 @@ CREATE TABLE department (
   department_name VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE employee (
+CREATE TABLE employees (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     department_id INT,
     employee TEXT NOT NULL,
